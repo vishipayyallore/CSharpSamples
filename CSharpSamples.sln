@@ -15,6 +15,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MongoDbDataStore", "MongoDb
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MongoDbDataRepositories", "MongoDbDataRepositories", "{85D5E091-F689-45DD-B2E3-AB76A71B0381}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataModels", "DataModels", "{44A5212F-E470-4134-BBF9-5A10BA0F3006}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp.Samples.MongoStore", "CSharp.Samples.MongoStore\CSharp.Samples.MongoStore.csproj", "{B279133F-227F-4FFB-88C9-DEA9CB04E875}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +33,10 @@ Global
 		{4A3A0AD2-283A-4A0D-A802-B5FF5B0C57A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A3A0AD2-283A-4A0D-A802-B5FF5B0C57A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A3A0AD2-283A-4A0D-A802-B5FF5B0C57A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B279133F-227F-4FFB-88C9-DEA9CB04E875}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B279133F-227F-4FFB-88C9-DEA9CB04E875}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B279133F-227F-4FFB-88C9-DEA9CB04E875}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B279133F-227F-4FFB-88C9-DEA9CB04E875}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,5 +44,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{1C0F5A5A-9319-43B4-8742-2ADB426B248E} = {354060E8-EC4D-4B0B-BA36-92015933E26C}
 		{4A3A0AD2-283A-4A0D-A802-B5FF5B0C57A7} = {354060E8-EC4D-4B0B-BA36-92015933E26C}
+		{B279133F-227F-4FFB-88C9-DEA9CB04E875} = {CA0E8264-78F5-474B-A974-0AF31E2B5039}
 	EndGlobalSection
 EndGlobal
