@@ -50,6 +50,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="AppSettingsHelperTests.cs" />
     <Compile Include="CurrencyGeneratorTests.cs" />
     <Compile Include="NameGeneratorTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -59,6 +60,9 @@
       <Project>{1C0F5A5A-9319-43B4-8742-2ADB426B248E}</Project>
       <Name>CSharp.Samples.Utilities</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
