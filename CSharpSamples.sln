@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GOFDesignPatterns", "GOFDes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp.Samples.UtilitiesTests", "CSharp.Samples.UtilitiesTests\CSharp.Samples.UtilitiesTests.csproj", "{4A3A0AD2-283A-4A0D-A802-B5FF5B0C57A7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MongoDbDataStore", "MongoDbDataStore", "{CA0E8264-78F5-474B-A974-0AF31E2B5039}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MongoDbDataRepositories", "MongoDbDataRepositories", "{85D5E091-F689-45DD-B2E3-AB76A71B0381}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
