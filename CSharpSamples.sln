@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp.Samples.MongoStore",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp.Samples.MongoStoreTests", "CSharp.Samples.MongoStoreTests\CSharp.Samples.MongoStoreTests.csproj", "{BC9BCD29-DD89-486E-9B6A-FE8EEE8E0698}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp.Samples.IDataModels", "CSharp.Samples.IDataModels\CSharp.Samples.IDataModels.csproj", "{1995FB2C-6204-4F75-A4D3-4213EF11001C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp.Samples.DataModels", "CSharp.Samples.DataModels\CSharp.Samples.DataModels.csproj", "{BA38B8E4-EA51-4691-9908-48B59F887347}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +47,14 @@ Global
 		{BC9BCD29-DD89-486E-9B6A-FE8EEE8E0698}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC9BCD29-DD89-486E-9B6A-FE8EEE8E0698}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC9BCD29-DD89-486E-9B6A-FE8EEE8E0698}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1995FB2C-6204-4F75-A4D3-4213EF11001C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1995FB2C-6204-4F75-A4D3-4213EF11001C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1995FB2C-6204-4F75-A4D3-4213EF11001C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1995FB2C-6204-4F75-A4D3-4213EF11001C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA38B8E4-EA51-4691-9908-48B59F887347}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA38B8E4-EA51-4691-9908-48B59F887347}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA38B8E4-EA51-4691-9908-48B59F887347}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA38B8E4-EA51-4691-9908-48B59F887347}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -52,5 +64,7 @@ Global
 		{4A3A0AD2-283A-4A0D-A802-B5FF5B0C57A7} = {354060E8-EC4D-4B0B-BA36-92015933E26C}
 		{B279133F-227F-4FFB-88C9-DEA9CB04E875} = {CA0E8264-78F5-474B-A974-0AF31E2B5039}
 		{BC9BCD29-DD89-486E-9B6A-FE8EEE8E0698} = {CA0E8264-78F5-474B-A974-0AF31E2B5039}
+		{1995FB2C-6204-4F75-A4D3-4213EF11001C} = {44A5212F-E470-4134-BBF9-5A10BA0F3006}
+		{BA38B8E4-EA51-4691-9908-48B59F887347} = {44A5212F-E470-4134-BBF9-5A10BA0F3006}
 	EndGlobalSection
 EndGlobal
