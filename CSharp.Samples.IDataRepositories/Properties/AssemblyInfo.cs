@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("CSharp.Samples.DataModelsTests")]
+[assembly: AssemblyTitle("CSharp.Samples.IDataRepositories")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("CSharp.Samples.DataModelsTests")]
+[assembly: AssemblyProduct("CSharp.Samples.IDataRepositories")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -19,7 +19,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("2abf74ff-b863-4a0b-a788-828ecd900471")]
+[assembly: Guid("4abfde44-1874-470a-a71d-76eb71eb831e")]
 
 // Version information for an assembly consists of the following four values:
 //

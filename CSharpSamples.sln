@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp.Samples.DataModels",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp.Samples.DataModelsTests", "CSharp.Samples.DataModelsTests\CSharp.Samples.DataModelsTests.csproj", "{2ABF74FF-B863-4A0B-A788-828ECD900471}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp.Samples.IDataRepositories", "CSharp.Samples.IDataRepositories\CSharp.Samples.IDataRepositories.csproj", "{4ABFDE44-1874-470A-A71D-76EB71EB831E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +63,10 @@ Global
 		{2ABF74FF-B863-4A0B-A788-828ECD900471}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2ABF74FF-B863-4A0B-A788-828ECD900471}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2ABF74FF-B863-4A0B-A788-828ECD900471}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ABFDE44-1874-470A-A71D-76EB71EB831E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ABFDE44-1874-470A-A71D-76EB71EB831E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ABFDE44-1874-470A-A71D-76EB71EB831E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ABFDE44-1874-470A-A71D-76EB71EB831E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -73,5 +79,6 @@ Global
 		{1995FB2C-6204-4F75-A4D3-4213EF11001C} = {44A5212F-E470-4134-BBF9-5A10BA0F3006}
 		{BA38B8E4-EA51-4691-9908-48B59F887347} = {44A5212F-E470-4134-BBF9-5A10BA0F3006}
 		{2ABF74FF-B863-4A0B-A788-828ECD900471} = {44A5212F-E470-4134-BBF9-5A10BA0F3006}
+		{4ABFDE44-1874-470A-A71D-76EB71EB831E} = {85D5E091-F689-45DD-B2E3-AB76A71B0381}
 	EndGlobalSection
 EndGlobal
