@@ -29,6 +29,13 @@ namespace CSharp.Samples.DataModels
 
         public string Manufacturer { get; set; }
         #endregion
+
+        #region Methods
+        public override string ToString()
+        {
+            return $"{Name} - {Price} - {Manufacturer}";
+        }
+        #endregion
     }
 
 }
